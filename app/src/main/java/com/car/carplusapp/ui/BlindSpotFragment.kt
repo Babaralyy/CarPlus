@@ -424,6 +424,7 @@ class BlindSpotFragment : Fragment(), SpecsCallback{
                 specsList.add(SpecsData("ממשק משתמש בעברית."))
                 specsList.add(SpecsData("חיבור מהיר לאינטרנט על גבי רשת 4G."))
 
+
                 specsAdapter = SpecsAdapter(requireContext(), specsList)
                 mBinding.rvSpecs.adapter = specsAdapter
 
