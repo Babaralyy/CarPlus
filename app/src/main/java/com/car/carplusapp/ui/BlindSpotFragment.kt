@@ -208,22 +208,6 @@ class BlindSpotFragment : Fragment(), SpecsCallback{
                 specsList.add(SpecsData("אחסון בטווח טמפרטורה: 40°C~ + 85°C-"))
                 specsList.add(SpecsData("זווית אנכית: 30 מעלות"))
                 specsList.add(SpecsData("זווית אופקית: 150 מעלות"))
-//                specsList.add(SpecsData("4G Frequency FDD-LTE B1/B3/B5/B28.", true))
-//                specsList.add(SpecsData("Wi-Fi 802.11b/g/n 2.4G (WLAN).",true))
-//                specsList.add(SpecsData("RAM LPDDR4 1GB RAM.",true))
-//                specsList.add(SpecsData("Micro SD Card Max 256G.",true))
-//                specsList.add(SpecsData("GPS Location GPS, A-GPS, BeiDou.",true))
-//                specsList.add(SpecsData("Memory Flash 4GB.",true))
-//                specsList.add(SpecsData("CPU MT6761 ARMCortex-A53, 2.0GHz (Quad Core).",true))
-//                specsList.add(SpecsData("OS Android 9.0.",true))
-//                specsList.add(SpecsData("Network FDD-LTE(4G), WCDMA(3G), GSM900/1800.",true))
-//                specsList.add(SpecsData("3G Frequency WCDMA B1/B3.",true))
-//                specsList.add(SpecsData("Data Service HSDPA, HSPA+, LTE.",true))
-//                specsList.add(SpecsData("תמיכת ג’י פי אס APP & PC Platform." ))
-//                specsList.add(SpecsData("מנגנון לראיית לילה מיטבית."))
-//                specsList.add(SpecsData("ניטור וידאו ותמונה מרחוק לאפליקציית PROOF."))
-//                specsList.add(SpecsData("תמיכה בניגון פלייבק מהאפליקציה PROOF."))
-//                specsList.add(SpecsData("סטרימינג צפייה בזמן אמת באיכות 108025fps."))
 
                 specsAdapter = SpecsAdapter(requireContext(), specsList)
                 mBinding.rvSpecs.adapter = specsAdapter
@@ -242,13 +226,7 @@ class BlindSpotFragment : Fragment(), SpecsCallback{
                 specsList.add(SpecsData("טווח זיהוי עד 27 מטר"))
                 specsList.add(SpecsData("עומד בסטנדרט יבואני הרכב"))
                 specsList.add(SpecsData("זיהוי מהיר של אובייקטים"))
-//                specsList.add(SpecsData("מצלמת דרך בנסיעה ומצלמת אבטחה בחניה (עם אפשרות הקלטה."))
-//                specsList.add(SpecsData("צפייה בווידאו בזמן אמת, חזית הרכב ואחורי הרכב באמצעות אפליקציה."))
-//                specsList.add(SpecsData(" במקרה של זיהוי פגיעה נשלחת התראה בזמן אמת לסמארטפון."))
-//                specsList.add(SpecsData("אפשרות צפייה בשידור חי דרך האפליקציה מכל מקום בעולם."))
-//                specsList.add(SpecsData("היסטוריית נסיעות: נתוני מהירות, מיקום ומרחק נסיעה."))
-//                specsList.add(SpecsData("גידור גאוגרפי: התראות כניסה ויציאה מתחום מוגדר."))
-//                specsList.add(SpecsData("הקלטת שמע (לבחירת המשתמש)."))
+
 
                 specsAdapter = SpecsAdapter(requireContext(), specsList)
                 mBinding.rvSpecs.adapter = specsAdapter
